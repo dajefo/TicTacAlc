@@ -4,7 +4,7 @@
 
 - Working HomeAssistant installation (Supervised recommended)
 - 9 Bulbs (RGB recommended)
-- NodeRed (HomeAssistant integration recommended) 
+- NodeRed (HomeAssistant integration recommended)
 
 <br>
 <br>
@@ -32,4 +32,33 @@ You have to add a few helpers for it: (or use you own ones)
 - input_boolean.tictacalc_rgb_2_b
 - input_boolean.tictacalc_text
 
+You have to adjust the variables for your bulbs, mine were:
+- entity: light.arduino_section_1
+- entity: light.arduino_section_2
+- entity: light.arduino_section_3
+- entity: light.arduino_section_4
+- entity: light.arduino_section_5
+- entity: light.arduino_section_6
+- entity: light.arduino_section_7
+- entity: light.arduino_section_8
+- entity: light.arduino_section_9
 
+<br>
+<br>
+
+## NodeRed
+Use my code from here: [Code](/doc/code/NodeRed)
+
+If you use my helpers and my light entity's it should recocnize all of them. <br>
+If you want to use your own one's instead you have to change the node in the picture below:
+
+![](/doc/pic/NodeRed.png)
+
+<br>
+<br>
+
+
+## Extra
+If you use the ESPHome Integration, you can setup some cool stuff too on it. <br>
+Use my code from here: [Code](/doc/code/ESPHome) <br>
+With this code you get some effects for your arduino board like wled, e131 (ledfx) and some effects (rainbow, color wipe, fireworks, etc.)
