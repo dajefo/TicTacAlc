@@ -1,0 +1,251 @@
+esphome:
+  name: choose_your_own
+  platform: ESP8266
+  board: d1_mini
+####################################################
+wifi:
+  ssid: "choose_your_own"
+  password: "choose_your_own"
+####################################################
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "choose_your_own"
+    password: "choose_your_own"
+####################################################
+captive_portal:
+####################################################
+# Enable logging
+logger:
+####################################################
+# Enable Home Assistant API
+api:
+  password: "choose_your_own"
+####################################################
+ota:
+  password: "choose_your_own"
+####################################################
+e131:
+  method: multicast # default: register E1.31 to Multicast group
+####################################################
+wled:
+
+####################################################
+light:
+  - platform: fastled_clockless
+    chipset: WS2812B
+    num_leds: 144
+    pin: GPIO2
+    id: led_rings
+    rgb_order: GRB
+    name: "choose_your_own"
+    effects:
+      - addressable_rainbow:
+          name: Regenbogen
+      - strobe:
+          name: Strobe
+      - flicker:
+          name: Flicker
+      - addressable_color_wipe:
+          name: Color Wipe
+      - addressable_twinkle:
+          name: Twinkle
+      - addressable_random_twinkle:
+          name: Random Twinkle
+      - addressable_scan:
+          name: Scan
+      - addressable_fireworks:
+          name: Feuerwerk
+      - e131:
+          universe: 1
+          channels: RGB
+      - wled:
+########################Partitionen
+  - platform: partition
+    name: "Arduino_Section_1"
+    id: section1
+    segments:
+      - id: led_rings
+        from: 0
+        to: 15
+    effects:
+      - addressable_rainbow:
+          name: Regenbogen
+      - strobe:
+          name: Strobe
+      - flicker:
+          name: Flicker
+      - addressable_color_wipe:
+          name: Color Wipe
+      - addressable_twinkle:
+          name: Twinkle
+      - addressable_fireworks:
+          name: Feuerwerk
+############
+  - platform: partition
+    name: "Arduino_Section_2"
+    id: section2
+    segments:
+      - id: led_rings
+        from: 16
+        to: 31
+    effects:
+      - addressable_rainbow:
+          name: Regenbogen
+      - strobe:
+          name: Strobe
+      - flicker:
+          name: Flicker
+      - addressable_color_wipe:
+          name: Color Wipe
+      - addressable_twinkle:
+          name: Twinkle
+      - addressable_fireworks:
+          name: Feuerwerk
+############
+  - platform: partition
+    name: "Arduino_Section_3"
+    id: section3
+    segments:
+      - id: led_rings
+        from: 32
+        to: 47
+    effects:
+      - addressable_rainbow:
+          name: Regenbogen
+      - strobe:
+          name: Strobe
+      - flicker:
+          name: Flicker
+      - addressable_color_wipe:
+          name: Color Wipe
+      - addressable_twinkle:
+          name: Twinkle
+      - addressable_fireworks:
+          name: Feuerwerk
+############
+  - platform: partition
+    name: "Arduino_Section_4"
+    id: section4
+    segments:
+      - id: led_rings
+        from: 48
+        to: 63
+    effects:
+      - addressable_rainbow:
+          name: Regenbogen
+      - strobe:
+          name: Strobe
+      - flicker:
+          name: Flicker
+      - addressable_color_wipe:
+          name: Color Wipe
+      - addressable_twinkle:
+          name: Twinkle
+      - addressable_fireworks:
+          name: Feuerwerk
+############
+  - platform: partition
+    name: "Arduino_Section_5"
+    id: section5
+    segments:
+      - id: led_rings
+        from: 64
+        to: 79
+    effects:
+      - addressable_rainbow:
+          name: Regenbogen
+      - strobe:
+          name: Strobe
+      - flicker:
+          name: Flicker
+      - addressable_color_wipe:
+          name: Color Wipe
+      - addressable_twinkle:
+          name: Twinkle
+      - addressable_fireworks:
+          name: Feuerwerk
+############
+  - platform: partition
+    name: "Arduino_Section_6"
+    id: section6
+    segments:
+      - id: led_rings
+        from: 80
+        to: 95
+    effects:
+      - addressable_rainbow:
+          name: Regenbogen
+      - strobe:
+          name: Strobe
+      - flicker:
+          name: Flicker
+      - addressable_color_wipe:
+          name: Color Wipe
+      - addressable_twinkle:
+          name: Twinkle
+      - addressable_fireworks:
+          name: Feuerwerk
+############
+  - platform: partition
+    name: "Arduino_Section_7"
+    id: section7
+    segments:
+      - id: led_rings
+        from: 96
+        to: 111
+    effects:
+      - addressable_rainbow:
+          name: Regenbogen
+      - strobe:
+          name: Strobe
+      - flicker:
+          name: Flicker
+      - addressable_color_wipe:
+          name: Color Wipe
+      - addressable_twinkle:
+          name: Twinkle
+      - addressable_fireworks:
+          name: Feuerwerk
+############
+  - platform: partition
+    name: "Arduino_Section_8"
+    id: section8
+    segments:
+      - id: led_rings
+        from: 112
+        to: 127
+    effects:
+      - addressable_rainbow:
+          name: Regenbogen
+      - strobe:
+          name: Strobe
+      - flicker:
+          name: Flicker
+      - addressable_color_wipe:
+          name: Color Wipe
+      - addressable_twinkle:
+          name: Twinkle
+      - addressable_fireworks:
+          name: Feuerwerk
+############
+  - platform: partition
+    name: "Arduino_Section_9"
+    id: section9
+    segments:
+      - id: led_rings
+        from: 128
+        to: 143
+    effects:
+      - addressable_rainbow:
+          name: Regenbogen
+      - strobe:
+          name: Strobe
+      - flicker:
+          name: Flicker
+      - addressable_color_wipe:
+          name: Color Wipe
+      - addressable_twinkle:
+          name: Twinkle
+      - addressable_fireworks:
+          name: Feuerwerk
+####################################################
