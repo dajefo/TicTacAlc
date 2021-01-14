@@ -1,4 +1,4 @@
-# WLED Strip
+# TicTacAlc
 What it looks like:
  
 <br>
