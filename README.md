@@ -76,3 +76,10 @@ If you want to use your own one's instead you have to change the node's in the p
 If you use the ESPHome Integration, you can setup some cool stuff too on it. <br>
 Use my ESPHome code from here: [Code](/doc/code/ESPHome) <br>
 With this code you get some effects for your arduino board like wled, e131 (ledfx) and some effects (rainbow, color wipe, fireworks, etc.)
+
+<br>
+<br>
+
+
+## Credits
+To [zenofmud](https://discourse.nodered.org/u/zenofmud/summary) for his [zenofmud](https://discourse.nodered.org/u/zenofmud/summary) where this project is based off.
