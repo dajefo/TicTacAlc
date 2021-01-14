@@ -1,4 +1,18 @@
 # WLED Strip
+What it looks like:
+ 
+<br>
+
+In HomeAssistant: <br>
+![](/doc/vid/Homeassistant.gif)
+
+<br>
+
+With the Bulbs:<br>
+VIDEO EINFÜGEN
+
+<br>
+<br>
 
 ## Stuff you need
 
@@ -10,7 +24,7 @@
 <br>
 
 ## Home Assistant
-Use my code from here: [Code](/doc/code/HomeAssistant)
+Use my HA code from here: [Code](/doc/code/HomeAssistant)
 
 You have to add a few helpers for it: (or use you own ones)
 - input_boolean.tictacalc_1
@@ -47,10 +61,10 @@ You have to adjust the variables for your bulbs, mine were:
 <br>
 
 ## NodeRed
-Use my code from here: [Code](/doc/code/NodeRed)
+Use my NodeRed code from here: [Code](/doc/code/NodeRed)
 
 If you use my helpers and my light entity's it should recocnize all of them. <br>
-If you want to use your own one's instead you have to change the node in the picture below:
+If you want to use your own one's instead you have to change the node's in the picture below:
 
 ![](/doc/pic/NodeRed.png)
 
@@ -60,5 +74,5 @@ If you want to use your own one's instead you have to change the node in the pic
 
 ## Extra
 If you use the ESPHome Integration, you can setup some cool stuff too on it. <br>
-Use my code from here: [Code](/doc/code/ESPHome) <br>
+Use my ESPHome code from here: [Code](/doc/code/ESPHome) <br>
 With this code you get some effects for your arduino board like wled, e131 (ledfx) and some effects (rainbow, color wipe, fireworks, etc.)
