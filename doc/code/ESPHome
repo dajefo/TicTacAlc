@@ -1,7 +1,7 @@
 esphome:
   name: choose_your_own
   platform: ESP8266
-  board: d1_mini
+  board: choose_your_own
 ####################################################
 wifi:
   ssid: "choose_your_own"
