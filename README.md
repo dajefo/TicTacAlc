@@ -1,13 +1,10 @@
 # TicTacAlc
-What does it do: 
+What does it do: <br>
 You can play TicTacToe with your bulbs in HomeAssistant.
 
 <br>
 
-What it looks like:
- 
-<br>
-
+What it looks like:<br>
 In HomeAssistant: <br>
 ![](/doc/vid/Homeassistant.gif)
 
