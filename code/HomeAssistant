@@ -1,0 +1,159 @@
+type: vertical-stack
+cards:
+  - type: button
+    tap_action:
+      action: toggle
+    entity: input_boolean.tictacalc_locked
+    show_name: true
+    show_icon: true
+    icon: 'mdi:gamepad-variant'
+    icon_height: 50px
+    name: TicTacAlc
+    show_state: false
+    hold_action:
+      action: none
+  - type: conditional
+    conditions:
+      - entity: input_boolean.tictacalc_locked
+        state: 'on'
+    card:
+      type: vertical-stack
+      cards:
+        - type: markdown
+          content: '{{ states("input_text.tictacalc_text") }}'
+          title: Gewinner
+        - type: entities
+          entities:
+            - entity: input_number.tictacalc_rgb_1_r
+              name: Rot
+            - entity: input_number.tictacalc_rgb_1_g
+              name: Grün
+            - entity: input_number.tictacalc_rgb_1_b
+              name: Blau
+          title: Farbe Spieler 1
+          show_header_toggle: false
+          state_color: false
+        - type: entities
+          entities:
+            - entity: input_number.tictacalc_rgb_2_r
+              name: Rot
+            - entity: input_number.tictacalc_rgb_2_g
+              name: Grün
+            - entity: input_number.tictacalc_rgb_2_b
+              name: Blau
+          title: Farbe Spieler 2
+          show_header_toggle: false
+          state_color: false
+        - type: horizontal-stack
+          cards:
+            - type: button
+              entity: light.arduino_section_7
+              tap_action:
+                action: call-service
+                service: light.turn_on
+                service_data:
+                  entity_id: light.arduino_section_7
+              hold_action:
+                action: none
+              show_name: false
+              show_state: false
+            - type: button
+              entity: light.arduino_section_8
+              tap_action:
+                action: call-service
+                service: light.turn_on
+                service_data:
+                  entity_id: light.arduino_section_8
+              hold_action:
+                action: none
+              show_name: false
+              show_state: false
+            - type: button
+              entity: light.arduino_section_9
+              tap_action:
+                action: call-service
+                service: light.turn_on
+                service_data:
+                  entity_id: light.arduino_section_9
+              hold_action:
+                action: none
+              show_name: false
+              show_state: false
+        - type: horizontal-stack
+          cards:
+            - type: button
+              entity: light.arduino_section_4
+              tap_action:
+                action: call-service
+                service: light.turn_on
+                service_data:
+                  entity_id: light.arduino_section_4
+              hold_action:
+                action: none
+              show_name: false
+              show_state: false
+            - type: button
+              entity: light.arduino_section_5
+              tap_action:
+                action: call-service
+                service: light.turn_on
+                service_data:
+                  entity_id: light.arduino_section_5
+              hold_action:
+                action: none
+              show_name: false
+              show_state: false
+            - type: button
+              entity: light.arduino_section_6
+              tap_action:
+                action: call-service
+                service: light.turn_on
+                service_data:
+                  entity_id: light.arduino_section_6
+              hold_action:
+                action: none
+              show_name: false
+              show_state: false
+        - type: horizontal-stack
+          cards:
+            - type: button
+              entity: light.arduino_section_1
+              tap_action:
+                action: call-service
+                service: light.turn_on
+                service_data:
+                  entity_id: light.arduino_section_1
+              hold_action:
+                action: none
+              show_name: false
+              show_state: false
+            - type: button
+              entity: light.arduino_section_2
+              tap_action:
+                action: call-service
+                service: light.turn_on
+                service_data:
+                  entity_id: light.arduino_section_2
+              hold_action:
+                action: none
+              show_name: false
+              show_state: false
+            - type: button
+              entity: light.arduino_section_3
+              tap_action:
+                action: call-service
+                service: light.turn_on
+                service_data:
+                  entity_id: light.arduino_section_3
+              hold_action:
+                action: none
+              show_name: false
+              show_state: false
+        - type: button
+          entity: input_boolean.tictacalc_clear
+          hold_action:
+            action: none
+          show_name: true
+          show_state: false
+          show_icon: false
+          name: Löschen
