@@ -1,9 +1,8 @@
 # TicTacAlc
 What does it do: 
+You can play TicTacToe with your bulbs in HomeAssistant.
 
 <br>
-
-You can play TicTacToe with your bulbs in HomeAssistant.
 
 What it looks like:
  
