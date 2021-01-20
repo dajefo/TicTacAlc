@@ -41,15 +41,15 @@ You have to add a few helpers for it: (or use you own ones)
 - input_boolean.tictacalc_text
 
 You have to adjust the variables for your bulbs, mine were:
-- entity: light.arduino_section_1
-- entity: light.arduino_section_2
-- entity: light.arduino_section_3
-- entity: light.arduino_section_4
-- entity: light.arduino_section_5
-- entity: light.arduino_section_6
-- entity: light.arduino_section_7
-- entity: light.arduino_section_8
-- entity: light.arduino_section_9
+- light.arduino_section_1
+- light.arduino_section_2
+- light.arduino_section_3
+- light.arduino_section_4
+- light.arduino_section_5
+- light.arduino_section_6
+- light.arduino_section_7
+- light.arduino_section_8
+- light.arduino_section_9
 
 <br>
 <br>
