@@ -12,7 +12,7 @@ In HomeAssistant: <br>
 <br>
 
 With the Bulbs:<br>
-VIDEO EINFÜGEN
+<img src="/doc/vid/Demo.gif" width="400">
 
 <br>
 <br>
