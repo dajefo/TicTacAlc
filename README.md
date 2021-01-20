@@ -63,7 +63,7 @@ If you want to use your own one's instead, you have to change the node's in the 
 <br>
 <br>
 
-## Localisation
+## Localization
 Most strings are defined in Homeassistant, you have to edit them there. <br>
 For P1 wind, P2 wind draw and clear you have to edit a Node in NodeRed
 
