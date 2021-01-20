@@ -70,13 +70,14 @@ Most strings are defined in Homeassistant, you have to edit them there. <br>
 For P1 wind, P2 wind draw and clear you have to edit a Node in NodeRed
 
 <br>
-Choose the winner node:<br>
+Choose the winner node: <br>
 ![](/doc/pic/String_1.png)
 
 <br>
 
-Edit the strings in the pic:
+Edit the strings in the pic: <br>
 ![](/doc/pic/String_2.png)
+
 <br>
 <br>
 
