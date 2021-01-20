@@ -76,4 +76,4 @@ With this code you get some effects for your arduino board like wled, e131 (ledf
 
 
 ## Credits
-To [zenofmud](https://discourse.nodered.org/u/zenofmud/summary) for his [zenofmud](https://discourse.nodered.org/u/zenofmud/summary) where this project is based off.
+To [zenofmud](https://discourse.nodered.org/u/zenofmud/summary) for his [Tic-Tac-Toe Code](https://discourse.nodered.org/t/tic-tac-toe-game/23831) where this project is based off.
