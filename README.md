@@ -68,7 +68,7 @@ Most strings are defined in Homeassistant, you have to edit them there. <br>
 For P1 wind, P2 wind draw and clear you have to edit a Node in NodeRed
 
 <br>
-![](/doc/pic/String_1.png)
+Edit the "winner" node: <br>
 <img src="/doc/pic/String_1.png" width="500">
 <br>
 <br>
