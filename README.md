@@ -58,8 +58,8 @@ You have to adjust the variables for your bulbs, mine were:
 ## NodeRed
 Use my NodeRed code from here: [Code](/doc/code/NodeRed)
 
-If you use my helpers and my light entity's, it should recocnize all of them. <br>
-If you want to use your own one's instead, you have to change the node's in the picture below: <br>
+If you use my helpers and my light entitys, it should recocnize all of them. <br>
+If you want to use your own ones instead, you have to change the nodes in the picture below: <br>
 
 <img src="/doc/pic/NodeRed.png" width="500">
 <br>
