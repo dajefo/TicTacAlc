@@ -6,7 +6,8 @@ You can play TicTacToe with your bulbs in HomeAssistant.
 
 What it looks like:<br>
 In HomeAssistant: <br>
-![](/doc/vid/Homeassistant.gif)
+
+<img src="/doc/vid/Homeassistant.gif" width="400">
 
 <br>
 
