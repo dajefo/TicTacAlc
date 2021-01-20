@@ -59,9 +59,7 @@ Use my NodeRed code from here: [Code](/doc/code/NodeRed)
 
 If you use my helpers and my light entity's it should recocnize all of them. <br>
 If you want to use your own one's instead you have to change the node's in the picture below:
-
-![](/doc/pic/NodeRed.png)
-
+<img src="/doc/pic/NodeRed.png" width="500">
 <br>
 <br>
 
@@ -70,15 +68,13 @@ Most strings are defined in Homeassistant, you have to edit them there. <br>
 For P1 wind, P2 wind draw and clear you have to edit a Node in NodeRed
 
 <br>
-Choose the winner node: <br>
 ![](/doc/pic/String_1.png)
-
+<img src="/doc/pic/String_1.png" width="500">
 <br>
 <br>
 
 Edit the strings in the pic: <br>
-![](/doc/pic/String_2.png)
-
+<img src="/doc/pic/String_2.png" width="500">
 <br>
 <br>
 
