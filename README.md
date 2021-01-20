@@ -89,6 +89,10 @@ Use my ESPHome code from here: [Code](/doc/code/ESPHome) <br>
 With this code you get some effects for your arduino board like wled, e131 (ledfx) and some effects (rainbow, color wipe, fireworks, etc.)
 
 <br>
+Video:<br>
+Still uploading...
+
+<br>
 <br>
 
 
