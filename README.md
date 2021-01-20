@@ -71,12 +71,12 @@ For P1 wind, P2 wind draw and clear you have to edit a Node in NodeRed
 
 <br>
 Choose the winner node:<br>
-![](/doc/pic/String1.png)
+![](/doc/pic/String_1.png)
 
 <br>
 
 Edit the strings in the pic:
-![](/doc/pic/String2.png)
+![](/doc/pic/String_2.png)
 <br>
 <br>
 
