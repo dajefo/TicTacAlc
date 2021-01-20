@@ -65,6 +65,20 @@ If you want to use your own one's instead you have to change the node's in the p
 <br>
 <br>
 
+## Localisation
+Most strings are defined in Homeassistant, you have to edit them there. <br>
+For P1 wind, P2 wind draw and clear you have to edit a Node in NodeRed
+
+<br>
+Choose the winner node:<br>
+![](/doc/pic/String1.png)
+
+<br>
+
+Edit the strings in the pic:
+![](/doc/pic/String2.png)
+<br>
+<br>
 
 ## Extra
 If you use the ESPHome Integration, you can setup some cool stuff too on it. <br>
