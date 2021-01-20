@@ -74,6 +74,7 @@ Choose the winner node: <br>
 ![](/doc/pic/String_1.png)
 
 <br>
+<br>
 
 Edit the strings in the pic: <br>
 ![](/doc/pic/String_2.png)
