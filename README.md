@@ -90,7 +90,7 @@ With this code you get some effects for your arduino board like wled, e131 (ledf
 
 <br>
 Video:<br>
-Still uploading...
+https://www.youtube.com/watch?v=Uw4Wjl6XLXY
 
 <br>
 <br>
